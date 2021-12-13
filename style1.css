@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(255, 255, 179,0.7),rgba(10, 61, 20,0.7)),url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.aboutus{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(255, 255, 179,0.7),rgba(10, 61, 20,0.7)),url(bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 1% 6%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: hsla(0,100%,0%,0.6);
+}
+
+
+}
+
+.nav-links ul li a select{
+	color:white;
+	
+	font-size: 20px;
+	background-color: black;
+}
+
+
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+ position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.text-box{
+
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.text-box h1{
+	font-size: 80px;
+	font-family: 'Mate SC', serif;
+	background-color: hsla(0,100%,0%,0.6);
+	width: 50%;
+	margin-top:90px;
+	margin-left: 280px;
+  text-shadow: 2px 3px #b35900;
+
+ 
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: #663300;
+}
+.services{
+	width: 80%;
+	margin: auto;
+	text-align:center;
+	margin-top: 100px;
+}
+h1{
+	font-size: 40px;
+	font-weight: 600; 
+}
+p{
+	color: #777;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+img{
+padding-top: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.comp-col{
+flex-basis: 31%;
+background:#ecf9f2;
+border-radius: 10px;
+margin-bottom: 5%;
+padding: 20px 12px;margin: 10px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.comp-col:hover{
+	box-shadow:  0 0 20px 0px rgba(0,0,0,0.2);
+}
+/*--footer--*/
+.footer{
+	width: 100%;
+	padding: 20px 0;
+	background-color: MediumSeaGreen;
+	background-image: linear-gradient(rgba(155, 155, 179,0.7),rgba(10, 61, 20,0.7));
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer h4{
+	padding-top: 30px;
+	text-align: left;
+	margin-left: 20px;
+	display: inline;
+	margin-bottom: 25px;
+	margin-top: 50px;
+	font-weight: 600;
+
+}
+.footer h5{
+	text-align: right;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	margin-top: 50px;
+	margin-right: 30px;
+	/*font-weight: 600;*/	
+}
+.footer img{
+    padding-top: 10px;
+	padding-left: 30px;
+	width: 40px;
+}
+
+} /* Bordered form */ .container{ border-radius: 15px;  margin-left: 20px; }
+
+/* Full-width inputs */
+{box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.grid-container {
+  border-radius: 35px;
+ background-color: inherit;
+	background-image: linear-gradient(rgba(155, 155, 179,0.7),rgba(10, 61, 20,0.7));
+	display: grid;
+  grid-gap: 10px;
+  padding: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.grid-item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+}
+
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+.vis{
+flex-basis: 50%;
+background:white;
+border-radius: 10px;
+margin-bottom: 5%;
+padding: 20px 12px;margin: 10px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.vis:hover{
+	box-shadow:  0 0 50px 0px rgba(0,0,0,0.2);
+}
